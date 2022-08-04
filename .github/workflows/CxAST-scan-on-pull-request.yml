@@ -19,7 +19,7 @@ jobs:
           base_uri: https://eu.ast.checkmarx.net/
           cx_tenant: cx_gs_enablement
           cx_client_id: ${{ secrets.CLIENT_ID }}
-          cx_client_secret: ${{ secrets.CLIENT_SECRET }}
+          cx_client_secret: ${{ secrets.CLEINT_SECRET }}
           github_token: ${{secrets.GH_TOKEN}}  # To be stored in GitHub Secrets.
           additional_params: --scan-types sast --sast-filter !src/main/webapp --file-filter !readme --report-format sarif --output-name results   
       - name: Upload SARIF file
