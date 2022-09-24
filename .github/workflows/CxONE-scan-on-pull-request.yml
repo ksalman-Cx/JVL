@@ -22,23 +22,23 @@ jobs:
           cx_tenant: kelsey-na
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.CLIENT_SECRET }}
-          project_name:
+          #project_name:
           # optional, default is ${{ github.repository }}
-          branch:
+          #branch:
           # optional, default is ${{ github.head_ref || github.ref }}
           # GitHub API Token
-          github_token:
+          #github_token:
           # optional, default is ${{ github.token }}
           # Additional parameters for AST scan
           additional_params:  --scan-types sast, sca, kics --file-filter !readme --report-format sarif --output-name results 
           #--sast-filter !src/main/webapp
-          repo_name:
+          #repo_name:
           # optional, default is ${{ github.event.repository.name }}
           # Organization name to create the Pr comment
-          namespace:
+          #namespace:
           # optional, default is ${{ github.repository_owner }}
           # Pr Number of the pull request that needs the decoration
-          pr_number:
+          #pr_number:
           # optional, default is ${{ github.event.number }}
       
       - name: Upload SARIF file
