@@ -1,4 +1,4 @@
-name: Cx-AST-scan-on-pull-request
+name: CxONE-scan-on-pull-request-Gh-Action
 on:
   pull_request:
     types: [opened, reopened, synchronize] #Types specify which pull request events will trigger the workflow. For more events refer Github Actions documentation.
