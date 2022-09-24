@@ -1,4 +1,4 @@
-name: CxAST CLI Action - Scan on Push/Merge
+name: CxONE-scan-on-push
 on:
   push:
     branches:
