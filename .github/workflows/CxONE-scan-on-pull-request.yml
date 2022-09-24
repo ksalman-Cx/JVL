@@ -21,7 +21,7 @@ jobs:
           # Provide the AST portal URL
           base_uri: https://ast.checkmarx.net/
           # Provide the Tenant for AST portal URL
-          cx_tenant: ksalman-na
+          cx_tenant: kelsey-na
           # Client ID for AST portal authentication
           cx_client_id: ${{ secrets.CLIENT_ID }}
           # Secret key for AST portal authentication
