@@ -1,4 +1,4 @@
-![](https://github.com/CheckmarxDev/NodeGoat-test/workflows/cx/badge.svg)
+[![CxONE-scan-on-pull-request-Gh-Action](https://github.com/ksalman-Cx-org-NA-kelsey-na/JVL/actions/workflows/CxONE-scan-on-pull-request.yml/badge.svg)](https://github.com/ksalman-Cx-org-NA-kelsey-na/JVL/actions/workflows/CxONE-scan-on-pull-request.yml)
 
 This is a "Vulnerable" Web Application developed by Cyber Security and Privacy Foundation(www.cysecurity.org). This app is intended for the Java Programmers and other people who wish to learn about Web application vulnerabilities and write secure code.123
 
