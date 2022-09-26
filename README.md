@@ -1,4 +1,5 @@
 [![CxONE-scan-on-pull-request-Gh-Action](https://github.com/ksalman-Cx-org-NA-kelsey-na/JVL/actions/workflows/CxONE-scan-on-pull-request.yml/badge.svg)](https://github.com/ksalman-Cx-org-NA-kelsey-na/JVL/actions/workflows/CxONE-scan-on-pull-request.yml)
+[![CxONE-scan-on-push](https://github.com/ksalman-Cx-org-NA-kelsey-na/JVL/actions/workflows/CxONE-scan-on-push.yml/badge.svg)](https://github.com/ksalman-Cx-org-NA-kelsey-na/JVL/actions/workflows/CxONE-scan-on-push.yml)
 
 This is a "Vulnerable" Web Application developed by Cyber Security and Privacy Foundation(www.cysecurity.org). This app is intended for the Java Programmers and other people who wish to learn about Web application vulnerabilities and write secure code.123
 
