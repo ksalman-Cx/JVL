@@ -27,7 +27,7 @@ jobs:
           #branch:
           # optional, default is ${{ github.head_ref || github.ref }}
           # GitHub API Token
-          #github_token:
+          github_token: ${{ secrets.GHTOKEN }}
           # optional, default is ${{ github.token }}
           # Additional parameters for AST scan
           additional_params: --file-filter !readme --report-format sarif --output-name CX
