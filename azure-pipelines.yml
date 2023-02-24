@@ -17,9 +17,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-#- task: Checkmarx AST@2
+- task: Checkmarx AST@2
   inputs:
-    CheckmarxService: 'ado to cx ast'
+    CheckmarxService: 'cx1_to_ADO_JVL'
     projectName: '$(Build.Repository.Name)'
     branchName: '$(Build.SourceBranchName)'
-    tenantName: 'cx_gs_enablement'
+    tenantName: 'kelsey-na'
